@@ -4972,7 +4972,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
-    --red: #dc3545;
+    --red:  #dc3545;
     --orange: #fd7e14;
     --yellow: #ffc107;
     --green: #28a745;
@@ -4986,7 +4986,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     --success: #28a745;
     --info: #17a2b8;
     --warning: #ffc107;
-    --danger: #dc3545;
+    --danger:  #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
     --breakpoint-xs: 0;
@@ -7626,7 +7626,7 @@ textarea.form-control.is-valid {
     width: 100%;
     margin-top: .25rem;
     font-size: 80%;
-    color: #dc3545;
+    color:  #4870bb;
 }
 
 .invalid-tooltip {
@@ -7653,7 +7653,7 @@ textarea.form-control.is-valid {
 
 .form-control.is-invalid,
 .was-validated .form-control:invalid {
-    border-color: #dc3545;
+    border-color:  #4870bb;
     padding-right: calc(1.5em + .75rem);
     background-image: url("data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'12\' height=\'12\' fill=\'none\' stroke=\'%23dc3545\' viewBox=\'0 0 12 12\'%3e%3ccircle cx=\'6\' cy=\'6\' r=\'4.5\'/%3e%3cpath stroke-linejoin=\'round\' d=\'M5.8 3.6h.4L6 6.5z\'/%3e%3ccircle cx=\'6\' cy=\'8.2\' r=\'.6\' fill=\'%23dc3545\' stroke=\'none\'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
@@ -7668,7 +7668,7 @@ textarea.form-control.is-valid {
 
 .form-control.is-invalid:focus,
 .was-validated .form-control:invalid:focus {
-    border-color: #dc3545;
+    border-color:  #4870bb;
     box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .25);
 }
 
@@ -7680,20 +7680,20 @@ textarea.form-control.is-invalid {
 
 .custom-select.is-invalid,
 .was-validated .custom-select:invalid {
-    border-color: #dc3545;
+    border-color:  #4870bb;
     padding-right: calc(.75em + 2.3125rem);
     background: url("data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'4\' height=\'5\' viewBox=\'0 0 4 5\'%3e%3cpath fill=\'%23343a40\' d=\'M2 0L0 2h4zm0 5L0 3h4z\'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'12\' height=\'12\' fill=\'none\' stroke=\'%23dc3545\' viewBox=\'0 0 12 12\'%3e%3ccircle cx=\'6\' cy=\'6\' r=\'4.5\'/%3e%3cpath stroke-linejoin=\'round\' d=\'M5.8 3.6h.4L6 6.5z\'/%3e%3ccircle cx=\'6\' cy=\'8.2\' r=\'.6\' fill=\'%23dc3545\' stroke=\'none\'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem);
 }
 
 .custom-select.is-invalid:focus,
 .was-validated .custom-select:invalid:focus {
-    border-color: #dc3545;
+    border-color:  #4870bb;
     box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .25);
 }
 
 .form-check-input.is-invalid~.form-check-label,
 .was-validated .form-check-input:invalid~.form-check-label {
-    color: #dc3545;
+    color:  #4870bb;
 }
 
 .form-check-input.is-invalid~.invalid-feedback,
@@ -7705,12 +7705,12 @@ textarea.form-control.is-invalid {
 
 .custom-control-input.is-invalid~.custom-control-label,
 .was-validated .custom-control-input:invalid~.custom-control-label {
-    color: #dc3545;
+    color:  #4870bb;
 }
 
 .custom-control-input.is-invalid~.custom-control-label::before,
 .was-validated .custom-control-input:invalid~.custom-control-label::before {
-    border-color: #dc3545;
+    border-color:  #4870bb;
 }
 
 .custom-control-input.is-invalid:checked~.custom-control-label::before,
@@ -7726,17 +7726,17 @@ textarea.form-control.is-invalid {
 
 .custom-control-input.is-invalid:focus:not(:checked)~.custom-control-label::before,
 .was-validated .custom-control-input:invalid:focus:not(:checked)~.custom-control-label::before {
-    border-color: #dc3545;
+    border-color:  #4870bb;
 }
 
 .custom-file-input.is-invalid~.custom-file-label,
 .was-validated .custom-file-input:invalid~.custom-file-label {
-    border-color: #dc3545;
+    border-color:  #4870bb;
 }
 
 .custom-file-input.is-invalid:focus~.custom-file-label,
 .was-validated .custom-file-input:invalid:focus~.custom-file-label {
-    border-color: #dc3545;
+    border-color:  #4870bb;
     box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .25);
 }
 
@@ -8077,8 +8077,8 @@ fieldset:disabled a.btn {
 
 .btn-danger {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color:  #4870bb;
+    border-color:  #4870bb;
 }
 
 .btn-danger:hover {
@@ -8098,8 +8098,8 @@ fieldset:disabled a.btn {
 .btn-danger.disabled,
 .btn-danger:disabled {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color:  #4870bb;
+    border-color:  #4870bb;
 }
 
 .btn-danger:not(:disabled):not(.disabled).active,
@@ -8379,14 +8379,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-danger {
-    color: #dc3545;
-    border-color: #dc3545;
+    color:  #4870bb;
+    border-color:  #4870bb;
 }
 
 .btn-outline-danger:hover {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color:  #4870bb;
+    border-color:  #4870bb;
 }
 
 .btn-outline-danger.focus,
@@ -8396,7 +8396,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-danger.disabled,
 .btn-outline-danger:disabled {
-    color: #dc3545;
+    color:  #4870bb;
     background-color: transparent;
 }
 
@@ -8404,8 +8404,8 @@ fieldset:disabled a.btn {
 .btn-outline-danger:not(:disabled):not(.disabled):active,
 .show>.btn-outline-danger.dropdown-toggle {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color:  #4870bb;
+    border-color:  #4870bb;
 }
 
 .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
@@ -10713,7 +10713,7 @@ a.badge-warning:focus {
 
 .badge-danger {
     color: #fff;
-    background-color: #dc3545;
+    background-color:  #4870bb;
 }
 
 a.badge-danger:focus,
@@ -12352,7 +12352,7 @@ button.bg-warning:hover {
 }
 
 .bg-danger {
-    background-color: #dc3545 !important;
+    background-color:  #4870bb !important;
 }
 
 a.bg-danger:focus,
@@ -12453,7 +12453,7 @@ button.bg-dark:hover {
 }
 
 .border-danger {
-    border-color: #dc3545 !important;
+    border-color:  #4870bb !important;
 }
 
 .border-light {
@@ -16237,7 +16237,7 @@ a.text-warning:hover {
 }
 
 .text-danger {
-    color: #dc3545 !important;
+    color:  #4870bb !important;
 }
 
 a.text-danger:focus,
@@ -16450,7 +16450,7 @@ a:focus {
 
 a:hover,
 a:focus {
-    color: #d5489b;
+    color:  #4870bb;
     text-decoration: none;
 }
 
@@ -16644,7 +16644,7 @@ select.form-control.nitro-lazy {
     display: inline-block;
     min-width: 270px;
     padding: 14px 15px;
-    background: #d5489b;
+    background:  #4870bb;
     color: #fff;
     font-size: 20px;
     text-align: center;
@@ -17029,7 +17029,7 @@ nav>ul>li>a {
 
 nav>ul>li:hover>a,
 nav>ul>li.active>a {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 nav>ul>li:hover>a:after,
@@ -17055,7 +17055,7 @@ nav>ul>li.active>a:before,
     display: inline-block;
     vertical-align: middle;
     padding: 16px 14px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     color: #fff;
     font-weight: 500;
     font-size: 16px;
@@ -17141,7 +17141,7 @@ header.style-two {
     visibility: hidden;
     border-style: solid;
     border-width: 0 8px 8px;
-    border-color: transparent transparent #d5489b;
+    border-color: transparent transparent  #4870bb;
     content: "";
     transition: all ease .4s;
     z-index: 1;
@@ -17165,7 +17165,7 @@ header.style-two {
     left: 13px;
     width: 2.5px;
     height: 100%;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     transform: rotate(45deg);
     content: "";
     border-radius: 10px;
@@ -17260,7 +17260,7 @@ header.style-two {
 }
 
 .dropdown-nav ul li a:hover {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .dropdown-nav ul li a img {
@@ -18515,7 +18515,7 @@ header.style-two {
 }
 
 .navigation-links ul li a:hover {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .call-dropdown {
@@ -18528,7 +18528,7 @@ header.style-two {
     top: 150%;
     left: 0;
     min-width: 220px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     color: #fff;
     padding: 15px;
     text-align: left;
@@ -18546,7 +18546,7 @@ header.style-two {
     height: 0;
     border-style: solid;
     border-width: 0 8px 8px;
-    border-color: transparent transparent #d5489b;
+    border-color: transparent transparent  #4870bb;
     content: "";
     z-index: 5;
 }
@@ -18577,7 +18577,7 @@ header.style-two {
 }
 
 .call-dropdown-link:hover {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .hr-label {
@@ -18733,7 +18733,7 @@ header.style-two {
 
 .banner-links ul li a {
     display: inline-block;
-    color: #d5489b;
+    color:  #4870bb;
     margin: 2px 0;
 }
 
@@ -18889,7 +18889,7 @@ header.style-two {
 }
 
 .about-info h2 {
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
     font-family: "Poppins";
     font-size: 75px;
@@ -18912,7 +18912,7 @@ header.style-two {
 
 .about-style-seven .about-info h2 span {
     font-size: 30px;
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .about-info h3 {
@@ -18964,7 +18964,7 @@ header.style-two {
 }
 
 .call-info p a {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .call-info p a:hover {
@@ -18972,7 +18972,7 @@ header.style-two {
 }
 
 section.emizen-blogs .call-info p a {
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
     background: transparent;
     padding: 0;
@@ -19051,7 +19051,7 @@ section.emizen-blogs .call-info p a {
     width: 50px;
     height: 4px;
     margin: 0 auto;
-    background: #d5489b;
+    background:  #4870bb;
     content: "";
     z-index: 1;
 }
@@ -19062,7 +19062,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .section-title h2 span {
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
 }
 
@@ -19073,7 +19073,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .section-title p a {
-    color: #d5489b;
+    color:  #4870bb;
     text-decoration: underline;
 }
 
@@ -19368,7 +19368,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .expertise-info h2 {
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
     font-size: 75px;
     line-height: 72px;
@@ -19421,7 +19421,7 @@ section.emizen-blogs .call-info p a {
     left: 0;
     width: 0;
     height: 0;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     content: "";
     border-radius: 8px 8px 0 0;
     transition: all cubic-bezier(.4, 0, 1, 1) .4s;
@@ -19509,7 +19509,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .studies-bg-2 .scroll-link .skip-link:hover {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .studies-bg-3 {
@@ -19919,7 +19919,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .emizentech-industries h2 {
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
     font-family: "Poppins";
     font-size: 75px;
@@ -20086,7 +20086,7 @@ section.emizen-blogs .call-info p a {
 
 .testimonials-info-wrap h4 {
     padding-bottom: 5px;
-    color: #d5489b;
+    color:  #4870bb;
     font-size: 18px;
 }
 
@@ -20168,7 +20168,7 @@ section.emizen-blogs .call-info p a {
 
 .blog-title h2,
 .blog-title h4 {
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
     font-size: 87px;
     line-height: 72px;
@@ -20202,7 +20202,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .blog-link {
-    color: #d5489b;
+    color:  #4870bb;
     font-size: 18px;
 }
 
@@ -20534,9 +20534,9 @@ section.emizen-blogs .call-info p a {
 }
 
 .masonry-filters ul li a.active {
-    background: #d5489b;
+    background:  #4870bb;
     color: #fff;
-    border-color: #d5489b;
+    border-color:  #4870bb;
 }
 
 .popup-open-wrap,
@@ -21009,7 +21009,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .development-item h3 span {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .development-item-wrap {
@@ -21171,7 +21171,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .serving-item p a {
-    color: #d5489b;
+    color:  #4870bb;
     text-decoration: underline;
 }
 
@@ -21243,7 +21243,7 @@ section.emizen-blogs .call-info p a {
     right: 20px;
     width: 6px;
     height: 100%;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     border-radius: 10px;
     opacity: 0;
     content: "";
@@ -21257,7 +21257,7 @@ section.emizen-blogs .call-info p a {
     right: 12px;
     width: 21px;
     height: 21px;
-    background: #d5489b;
+    background:  #4870bb;
     border: 5px solid #fff;
     opacity: 0;
     content: "";
@@ -21292,7 +21292,7 @@ section.emizen-blogs .call-info p a {
 .emizentech-operational .nav-tabs .nav-item.show .nav-link,
 .emizentech-operational .nav-tabs .nav-link.active {
     background-color: transparent;
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .operational-info .emizentech-image img {
@@ -21306,7 +21306,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .operational-info p a {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .operational-info .bullet-list {
@@ -21407,7 +21407,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .cloud-info h3 span {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .cloud-info .bullet-list {
@@ -21420,7 +21420,7 @@ section.emizen-blogs .call-info p a {
 }
 
 .cloud-info .bullet-list li a {
-    color: #d5489b;
+    color:  #4870bb;
     text-decoration: underline;
 }
 
@@ -21738,7 +21738,7 @@ table {
 }
 
 .reach-item h3 {
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
     font-size: 28px;
     line-height: 32px;
@@ -21781,7 +21781,7 @@ table {
 }
 
 .reach-info p a {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .reach-info .bullet-list {
@@ -21913,7 +21913,7 @@ table {
 }
 
 .small-title p a {
-    color: #d5489b;
+    color:  #4870bb;
     text-decoration: underline;
 }
 
@@ -22142,7 +22142,7 @@ table {
 }
 
 .support-item p a {
-    color: #d5489b;
+    color:  #4870bb;
     text-decoration: underline;
 }
 
@@ -22224,7 +22224,7 @@ table {
 }
 
 .emizentech-opencart p a {
-    color: #d5489b;
+    color:  #4870bb;
     text-decoration: underline;
 }
 
@@ -22596,7 +22596,7 @@ table {
     left: 0;
     width: 80px;
     height: 5px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     content: "";
     z-index: 1;
 }
@@ -22692,7 +22692,7 @@ table {
 }
 
 .api-info p a {
-    color: #d5489b;
+    color:  #4870bb;
     text-decoration: underline;
 }
 
@@ -22794,7 +22794,7 @@ table {
 .serve-link {
     display: inline-block;
     padding-right: 22px;
-    color: #d5489b;
+    color:  #4870bb;
     text-transform: uppercase;
     position: relative;
 }
@@ -22951,7 +22951,7 @@ table {
 }
 
 .emizentech-app h3 span {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .emizentech-develop {
@@ -22978,7 +22978,7 @@ table {
 }
 
 .emizentech-develop h2 span {
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
 }
 
@@ -22988,7 +22988,7 @@ table {
     left: 0;
     width: 50px;
     height: 4px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     content: "";
     z-index: 1;
 }
@@ -23205,7 +23205,7 @@ table {
 .form-info {
     height: 100%;
     padding: 40px 20px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     background-image: url("https://cdn-dpdal.nitrocdn.com/GyhcCIiZNdTIbeWlnyLmouvoGPRcWSwV/assets/images/optimized/rev-551e627/www.emizentech.com/wp-content/themes/twentytwentyone-child/assets/images/form-bg.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -23350,7 +23350,7 @@ table {
 .thankyou-meta-item {
     display: block;
     padding: 30px;
-    border: 1px solid #d5489b;
+    border: 1px solid  #4870bb;
     border-radius: 10px;
 }
 
@@ -23421,7 +23421,7 @@ table {
     font-weight: 600;
     font-family: "Poppins";
     font-size: 26px;
-    border: 1px dashed #d5489b;
+    border: 1px dashed  #4870bb;
     border-radius: 100%;
 }
 
@@ -23447,7 +23447,7 @@ table {
     left: 0;
     width: 50px;
     height: 3px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     content: "";
     z-index: 1;
 }
@@ -23538,7 +23538,7 @@ table {
 }
 
 .awards-rating i {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .emizentech-experience {
@@ -23605,7 +23605,7 @@ table {
 }
 
 .application-info h3 span {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .mobile-portfolio {
@@ -23715,7 +23715,7 @@ table {
 }
 
 .location-info a:hover {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .banner-style-four {
@@ -23783,7 +23783,7 @@ table {
     left: 0;
     width: 59px;
     height: 4px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     content: "";
     z-index: 1;
 }
@@ -23869,7 +23869,7 @@ table {
 }
 
 .career-btn a {
-    color: #d5489b;
+    color:  #4870bb;
     font-size: 18px;
     font-weight: 600;
 }
@@ -23900,7 +23900,7 @@ table {
     line-height: 136px;
     margin-left: auto;
     text-align: center;
-    border: 1px dashed #d5489b;
+    border: 1px dashed  #4870bb;
     border-radius: 100%;
 }
 
@@ -23952,7 +23952,7 @@ table {
 }
 
 .emizentech-error h1 span {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .emizentech-error h2 {
@@ -24000,7 +24000,7 @@ footer h3 {
 }
 
 .privacy-wrap p a {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .privacy-wrap p a:hover {
@@ -24047,7 +24047,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #d5489b;
+    color:  #4870bb;
     padding-left: 3px;
 }
 
@@ -24214,7 +24214,7 @@ li {
 }
 
 .contact-info a:hover {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .footer-client {
@@ -24260,7 +24260,7 @@ li {
 }
 
 .footer-copyright h6 a:hover {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .footer-copyright h6 img {
@@ -24282,8 +24282,8 @@ li {
 }
 
 .emizentech-social a:hover {
-    color: #d5489b;
-    border-color: #d5489b;
+    color:  #4870bb;
+    border-color:  #4870bb;
 }
 
 .web-loader {
@@ -24351,7 +24351,7 @@ li {
 }
 
 #gdpr-cookie-message p a {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 #gdpr-cookie-message p button {
@@ -24360,7 +24360,7 @@ li {
     min-width: 160px;
     padding: 11px 15px;
     margin-right: 15px;
-    background: #d5489b;
+    background:  #4870bb;
     color: #fff;
     font-size: 15px;
     text-align: center;
@@ -24686,7 +24686,7 @@ body.ppc-page header .emizentech-logo img {
     vertical-align: middle;
     min-width: 100px;
     padding: 13px 15px;
-    background: #d5489b;
+    background:  #4870bb;
     color: #fff;
     font-size: 20px;
     text-align: center;
@@ -24851,7 +24851,7 @@ body.ppc-page header .emizentech-logo img {
 .casestudies-title-meta span {
     display: inline-block;
     padding: 1px 5px 0;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     color: #fff;
     font-weight: 600;
     font-size: 20px;
@@ -24868,7 +24868,7 @@ body.ppc-page header .emizentech-logo img {
 
 .casestudies-title h3 {
     padding-bottom: 20px;
-    color: #d5489b;
+    color:  #4870bb;
     font-weight: 600;
     font-size: 50px;
     text-transform: uppercase;
@@ -25337,7 +25337,7 @@ body.ppc-page header .emizentech-logo img {
 .emizentech-grocery-app {
     padding: 100px 0 60px;
     margin-bottom: 120px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
 }
 
 .grocery-app-item img {
@@ -25531,7 +25531,7 @@ body.ppc-page header .emizentech-logo img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #d5489b;
+    background:  #4870bb;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
     content: "";
     z-index: -1;
@@ -25767,7 +25767,7 @@ body.ppc-page header .emizentech-logo img {
 }
 
 .demand-item:hover {
-    background-color: #d5489b;
+    background-color:  #4870bb;
 }
 
 .demand-item:hover h4,
@@ -25793,7 +25793,7 @@ body.ppc-page header .emizentech-logo img {
     height: 80px;
     line-height: 80px;
     background-color: #fff;
-    border: 1px dashed #d5489b;
+    border: 1px dashed  #4870bb;
     border-radius: 100%;
 }
 
@@ -26084,7 +26084,7 @@ body.ppc-page header .emizentech-logo img {
 .emizentech-more {
     display: inline-block;
     margin-top: 5px;
-    color: #d5489b;
+    color:  #4870bb;
     font-size: 16px;
 }
 
@@ -26145,7 +26145,7 @@ body.ppc-page header .emizentech-logo img {
     padding: 30px;
     margin-bottom: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    border-top: 4px solid #d5489b;
+    border-top: 4px solid  #4870bb;
 }
 
 .shopify-process-item h4 {
@@ -26170,7 +26170,7 @@ body.ppc-page header .emizentech-logo img {
 }
 
 .methodology-info h2 span {
-    color: #d5489b;
+    color:  #4870bb;
 }
 
 .methodology-info p {
@@ -26209,7 +26209,7 @@ body.ppc-page header .emizentech-logo img {
 
 .futuristic-wrap .nav-tabs .nav-item.show .nav-link,
 .futuristic-wrap .nav-tabs .nav-link.active {
-    background-color: #d5489b;
+    background-color:  #4870bb;
     color: #fff;
 }
 
@@ -26227,7 +26227,7 @@ body.ppc-page header .emizentech-logo img {
     left: 0;
     width: 50px;
     height: 3px;
-    background-color: #d5489b;
+    background-color:  #4870bb;
     content: "";
     z-index: 1;
 }
@@ -26413,7 +26413,7 @@ body.ppc-page header .emizentech-logo img {
 .portfolio-tabs .nav-tabs .nav-link.active {
     background: #fff;
     border: 1px solid #eee;
-    border-bottom: 5px solid #d5489b;
+    border-bottom: 5px solid  #4870bb;
     box-shadow: none;
     border-radius: 5px;
 }
@@ -26470,12 +26470,12 @@ body.ppc-page header .emizentech-logo img {
 }
 
 .btn.btn-info.toggle-btn {
-    background: #d5489b;
+    background:  #4870bb;
     text-transform: uppercase;
     font-size: 20px;
     width: 100%;
     text-align: left;
-    border: 1px solid #d5489b;
+    border: 1px solid  #4870bb;
 }
 
 .toggle-menu {
@@ -26618,7 +26618,7 @@ body.ppc-page header .emizentech-logo img {
 }
 
 section.emizen-blogs a {
-    background: #d5489b;
+    background:  #4870bb;
     border-radius: 4px;
     padding: 10px 20px;
     color: #fff;
@@ -26691,7 +26691,7 @@ section.emizen-blogs a {
 
 section.emizen-blogs a.more-info {
     background: 0 0;
-    color: #d5489b;
+    color:  #4870bb;
     padding: 0;
     display: inline;
 }
@@ -26732,7 +26732,7 @@ section.emizen-blogs a.more-info {
     font-weight: 600;
     font-weight: 400;
     font-size: 14px;
-    color: #d5489b;
+    color:  #4870bb;
     letter-spacing: .71px;
     margin-top: 10px;
     padding: 0;
@@ -27131,7 +27131,7 @@ circle {
     padding: 10px 20px;
     line-height: 19px;
     display: inline-block;
-    background: #d5489b;
+    background:  #4870bb;
     font-size: 20px;
     cursor: pointer;
     transition: all ease .4s;
@@ -27936,7 +27936,7 @@ circle {
 
     .mobile-dropdown-nav li a:hover,
     .mobile-links li a:hover {
-        color: #d5489b;
+        color:  #4870bb;
     }
 
     .mobile-dropdown>a {
@@ -27951,7 +27951,7 @@ circle {
         height: 0;
         border-style: solid;
         border-width: 8px 8px 0;
-        border-color: #d5489b transparent transparent;
+        border-color:  #4870bb transparent transparent;
         transform: translateY(-50%);
         content: "";
         z-index: 1;
@@ -28005,7 +28005,7 @@ circle {
         height: 0;
         border-style: solid;
         border-width: 8px 8px 0;
-        border-color: #d5489b transparent transparent;
+        border-color:  #4870bb transparent transparent;
         transform: translateY(-50%);
         content: "";
         z-index: 5;
